@@ -10,13 +10,22 @@
 # print(y)
 
 # プログラム2-4(変数と型)
-n = 685
-r = 12.9
-c = 6 - 7j
-b = True
-s = "abc"
-print(type(n))
-print(type(r))
-print(type(c))
-print(type(b))
-print(type(s))
+# n = 685
+# r = 12.9
+# c = 6 - 7j
+# b = True
+# s = "abc"
+# z = 9.9 - 6 + 7j
+# print(type(n))
+# print(type(r))
+# print(type(c))
+# print(type(b))
+# print(type(s))
+# print(type(z))
+
+# 節末問題 
+# BMI計算
+weight = 60
+height = 1.8
+BMI = weight/height**2
+print (BMI)
