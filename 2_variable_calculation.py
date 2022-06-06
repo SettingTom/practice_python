@@ -25,7 +25,15 @@
 
 # 節末問題 
 # BMI計算
-weight = 60
-height = 1.8
-BMI = weight/height**2
-print (BMI)
+# weight = 60
+# height = 1.8
+# BMI = weight/height**2
+# print (BMI)
+
+# プログラム2-5(文字列の連結)
+s1 = "こんにちは"
+s2 = "さようなら"
+print(s1 + s2)
+print(s1 * 3)
+s1 += s2
+print(s1)
