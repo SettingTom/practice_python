@@ -73,3 +73,13 @@
 # print(li[0])
 # print(li[3])
 # print(li[1])
+
+# プログラム2-10(要素の追加・削除)
+# li=['a', 'b', 'c']
+# print('dを含むか:'+str('d' in li))
+# li.append('d')
+# print('dを含むか:'+str('d' in li))
+# li.pop(3)
+# print('dを含むか:'+str('d' in li))
+# li.remove('a')
+# print('aを含むか:'+str('a' in li))
