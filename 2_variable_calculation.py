@@ -67,3 +67,9 @@
 # list1[3] = 100
 # print(list1[3])
 # print(list1)
+
+# プログラム2-9(リストの使い方)
+# li=[3.3, 5.5, 7.7]
+# print(li[0])
+# print(li[3])
+# print(li[1])
