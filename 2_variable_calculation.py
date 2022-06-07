@@ -102,3 +102,7 @@
 # student_name[103] = '山田三郎'
 # print(103 in student_name)
 # print(student_name[103])
+
+# プログラム2-14(タプルの定義)
+# timetable={('月曜日', 1):'数学', ('月曜日', 2):'国語', ('火曜日', 1):'英語'}
+# print('月曜日の２時限は'+timetable[('月曜日', 2)])
