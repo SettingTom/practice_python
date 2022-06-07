@@ -53,12 +53,3 @@
 # while i < 5:
 #   print(i)
 #   i += 1
-
-# プログラム3-4(while文の例)
-# total=0
-# n=0
-# while total <= 10000:
-#   n += 1
-#   total += n
-# print("10000を超える最小のnは"+str(n))
-# print("そのときの合計値は"+str(total))
