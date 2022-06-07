@@ -47,3 +47,9 @@
 #   print(2)
 # elif n % 3 == 0:
 #   print(3)
+
+# プログラム3-4(while文の例)
+# i=0
+# while i < 5:
+#   print(i)
+#   i += 1
