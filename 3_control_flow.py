@@ -13,3 +13,18 @@
 #   print(m)
 # else:
 #   print('等しい値です')
+
+# プログラム3-3(if文の入れ子構造例)
+# a=8
+# b=1
+# c=6
+# if a <= b:
+#   if b <= c:
+#     print(c)
+#   else:
+#     print(b)
+# else:
+#   if a <= c:
+#     print(c)
+#   else:
+#     print(a)
