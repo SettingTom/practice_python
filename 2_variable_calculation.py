@@ -113,3 +113,17 @@
 # print('e' in set1)
 # print(1 in set1)
 # print(5 in set1)
+
+# プログラム2-16(集合の演算)
+# set1={1, 2, 3} | {4}
+# set2={1, 2, 3} & {2, 3, 4}
+# set3={1, 2, 3} - {2, 3}
+# set4={1, 2, 3} ^ {2, 3, 4}
+# print(1 in set1)
+# print(4 in set1)
+# print(2 in set2)
+# print(4 in set2)
+# print(1 in set3)
+# print(2 in set3)
+# print(1 in set4)
+# print(2 in set4)
