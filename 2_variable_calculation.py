@@ -83,3 +83,9 @@
 # print('dを含むか:'+str('d' in li))
 # li.remove('a')
 # print('aを含むか:'+str('a' in li))
+
+# プログラム2-11(辞書の使い方)
+# dict1={'鉛筆':60, '消しゴム':130,'定規':210,}
+# print(dict1['鉛筆'])
+# print(dict1['消しゴム'])
+# print(dict1['定規'])
