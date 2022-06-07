@@ -23,7 +23,7 @@
 # print(type(s))
 # print(type(z))
 
-# 節末問題 
+# 2.2節末問題 
 # BMI計算
 # weight = 60
 # height = 1.8
@@ -51,7 +51,7 @@
 # m = 7
 # print(str(n) + 'と' + str(m) + 'の和は' + str(n+m))
 
-# 節末問題
+# 2.3節末問題
 # BMI値を身長、体重と合わせて文章で表示せよ
 # weight = 60
 # height = 1.8
