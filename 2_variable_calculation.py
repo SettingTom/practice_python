@@ -56,3 +56,14 @@
 # weight = 60
 # height = 1.8
 # print('身長'+str(height)+'m、'+'体重'+str(weight)+'kgの人のBMIは'+str(weight/height**2)+'です')
+
+# プログラム2-8(リストの使い方)
+# list1=[3, 5, 4, 10]
+# list2=['abc', 1, 6.8]
+# print(list1[0])
+# print(list1[3])
+# print(list2[0])
+# print(list2[2])
+# list1[3] = 100
+# print(list1[3])
+# print(list1)
