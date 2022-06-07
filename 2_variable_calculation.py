@@ -95,3 +95,10 @@
 # print('鉛筆の値段は'+str(dict1['鉛筆'])+'円')
 # print('消しゴムの値段は'+str(dict1['消しゴム'])+'円')
 # print('定規の値段は'+str(dict1['定規'])+'円')
+
+# プログラム2-13(辞書の要素の確認)
+# student_name={101:'山田一郎', 102:'山田二郎'}
+# print(103 in student_name)
+# student_name[103] = '山田三郎'
+# print(103 in student_name)
+# print(student_name[103])
