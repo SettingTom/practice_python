@@ -50,3 +50,9 @@
 # n = 5
 # m = 7
 # print(str(n) + 'と' + str(m) + 'の和は' + str(n+m))
+
+# 節末問題
+# BMI値を身長、体重と合わせて文章で表示せよ
+# weight = 60
+# height = 1.8
+# print('身長'+str(height)+'m、'+'体重'+str(weight)+'kgの人のBMIは'+str(weight/height**2)+'です')
