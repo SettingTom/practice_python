@@ -132,3 +132,33 @@
 #     continue
 #   total += i
 # print(total)
+
+# 3章 章末問題
+# [1]2000年から2500年のうち、閏年のみを全表示せよ。
+# 閏年は4で割り切れるもののうち、「100で割り切れて400で割り切れないもの」を除く年である。
+# [2]2から9の自然数の中から二つ選び、どちらかがどちらかの約数となっているものの組み合わせを全表示せよ。
+# [3]完全数を小さい方から三つ探してくるプログラムを作成せよ。
+# for year in range(2000,2501):
+#   if year % 4 == 0 and not (year % 100 == 0 and year % 400 != 0):
+#     print(year)
+
+# for n in range(2,10):
+#   for m in range(2,10):
+#     if n != m:
+#       if m % n == 0:
+#         print(str(n)+","+str(m))
+# for n in range(2,9):
+#   for m in range(n+1,10):
+#     if m % n == 0:
+#       print(str(n)+","+str(m))
+# n = 2
+# count = 0
+# while count < 3:
+#   m = 0
+#   for i in range(1,n):
+#     if n % i == 0:
+#       m += 1
+#   if n == m:
+#     print(n)
+#     count += 1
+#   n += 1
