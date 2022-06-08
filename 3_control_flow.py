@@ -104,3 +104,8 @@
 # プログラム3-9(リストの内包表記(条件付))
 # l=[x**2 for x in range(10) if x%2 != 0]
 # print(l)
+
+# プログラム3-10(九九の表)
+# for x in range(1,10):
+#   for y in range(1,10):
+#     print(str(x)+"X"+str(y)+"="+str(x*y))
