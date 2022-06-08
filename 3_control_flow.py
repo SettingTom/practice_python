@@ -95,3 +95,8 @@
 # プログラム3-7(等差数列の出力)
 # for n in range(10):
 #   print(3 * n + 7)
+
+# プログラム3-8(リストの内包表記)
+# l=[x**2 for x in range(5)]
+# for x in l:
+#   print(x)
