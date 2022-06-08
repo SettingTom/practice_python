@@ -124,3 +124,11 @@
 #     print(n)
 #   if count >= 10:
 #     break
+
+# プログラム3-13(continue文の利用例)
+# total=0
+# for i in range(100):
+#   if i % 3 == 0:
+#     continue
+#   total += i
+# print(total)
