@@ -109,3 +109,9 @@
 # for x in range(1,10):
 #   for y in range(1,10):
 #     print(str(x)+"X"+str(y)+"="+str(x*y))
+
+# プログラム3-11(5の倍数となる組合わせ)
+# for n in range(1,7):
+#   for m in range(1,7):
+#     if (n + m) % 5 == 0:
+#       print(str(n)+","+str(m))
