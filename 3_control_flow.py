@@ -63,6 +63,30 @@
 # print("10000を超える最小のnは"+str(n))
 # print("そのときの合計値は"+str(total))
 
+# 3.2節末問題
+# 問1.while文を用いて「hello world」を10回表示せよ。
+# 問2.100までの7の倍数を全て表示せよ。
+# 問3.2000より大きい(7*n)の最小のnを表示せよ。
+# n=0
+# s=0
+# while n < 10:
+#   print("hello wold")
+#   n += 1
+
+# while n < 100:
+#   n += 1
+#   if n % 7 == 0:
+#     print(n)
+
+# while 7 * n < 2000:
+#   n += 1
+# print(n)
+
+# while s <= 2000:
+#   n += 1
+#   s += 7 * n
+# print(n)
+
 # プログラム3-6(for文の例)
 # l = ["a", "b", "c", "d", "e"]
 # for x in l:
