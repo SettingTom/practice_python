@@ -115,3 +115,12 @@
 #   for m in range(1,7):
 #     if (n + m) % 5 == 0:
 #       print(str(n)+","+str(m))
+
+# プログラム3-12(break文の例)
+# count=0
+# for n in range(100):
+#   if n % 3 == 0 and n % 5 != 0:
+#     count += 1
+#     print(n)
+#   if count >= 10:
+#     break
