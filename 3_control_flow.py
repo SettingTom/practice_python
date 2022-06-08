@@ -91,3 +91,7 @@
 # l = ["a", "b", "c", "d", "e"]
 # for x in l:
 #   print(x)
+
+# プログラム3-7(等差数列の出力)
+# for n in range(10):
+#   print(3 * n + 7)
