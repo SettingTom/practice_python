@@ -100,3 +100,7 @@
 # l=[x**2 for x in range(5)]
 # for x in l:
 #   print(x)
+
+# プログラム3-9(リストの内包表記(条件付))
+# l=[x**2 for x in range(10) if x%2 != 0]
+# print(l)
