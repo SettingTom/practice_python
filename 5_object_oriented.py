@@ -28,3 +28,10 @@
 # print('全ての要素の表示')
 # for i in d.items():
 #   print(i)
+
+# プログラム5-3(文字列メソッドの使用例)
+# s = 'abcabc'
+# print(s.find('bc'))
+# print(s.count('bc'))
+# sp = s.split('b')
+# print(sp)
