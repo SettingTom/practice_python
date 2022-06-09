@@ -96,3 +96,17 @@
 #     return 1
 #   return fib(n-1) + fib(n-2)
 # print(fib(7))
+
+# プログラム4-13(数当てゲームのプログラム)
+# import random
+# ans = random.randint(1,10)
+# print("■1から10までの数字を当ててください")
+# while True:
+#   input_n = int(input("□数値を入力してください："))
+#   if input_n == ans:
+#     print("- 正解!")
+#     break
+#   elif ans < input_n:
+#     print("- もっと小さいです!")
+#   else:
+#     print("- もっと大きいです!")
