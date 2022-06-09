@@ -89,3 +89,10 @@
 #     return 1
 #   return n * fact(n-1)
 # print(fact(7))
+
+# プログラム4-12(フィボナッチ数の計算)
+# def fib(n):
+#   if n < 3:
+#     return 1
+#   return fib(n-1) + fib(n-2)
+# print(fib(7))
