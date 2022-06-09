@@ -2,3 +2,11 @@
 # result = abs(-170)
 # print(result)
 # print(abs(-8*7))
+
+# プログラム4-2(数値を扱う組込み関数)
+# print(abs(0.98))
+# print(abs(-0.98))
+# print(max(1,5,7,4))
+# print(min(1,5,7,4))
+# print(round(7.65))
+# print(round(2.1))
