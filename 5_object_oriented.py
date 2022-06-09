@@ -14,3 +14,17 @@
 # print(list1)
 # list1.sort(reverse=True)
 # print(list1)
+
+# プログラム5-2(辞書型メソッドの使用例)
+# d = {'a':10,'b':20,'c':30,}
+# d.pop('b')
+# d.update({'c':100, 'd':200})
+# print('全てのキーの表示')
+# for k in d.keys():
+#   print(k)
+# print('全ての値の表示')
+# for v in d.values():
+#   print(v)
+# print('全ての要素の表示')
+# for i in d.items():
+#   print(i)
