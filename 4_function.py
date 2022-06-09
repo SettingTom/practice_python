@@ -31,3 +31,12 @@
 # input_number = int(input1)
 # print('input_numberの型は'+str(type(input_number)))
 # print('入力された値の2乗は'+str(input_number**2))
+
+# プログラム4-5(mathモジュールの利用)
+# import math
+# y1 = math.factorial(7)
+# y2 = math.log2(1024)
+# y3 = math.sin(math.pi/2)
+# print(y1)
+# print(y2)
+# print(y3)
