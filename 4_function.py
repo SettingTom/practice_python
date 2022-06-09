@@ -70,3 +70,15 @@
 #   return inversed_x
 # a = inverse(4)
 # print(a)
+
+# プログラム4-10(参照渡しと値渡しの比較)
+# def changeIntTest(x):
+#   x *= 2
+# def changeListTest(x):
+#   x[0] *= 2
+# n = 5
+# li = [5]
+# changeIntTest(n)
+# changeListTest(li)
+# print(n)
+# print(li[0])
