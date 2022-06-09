@@ -110,3 +110,32 @@
 #     print("- もっと小さいです!")
 #   else:
 #     print("- もっと大きいです!")
+
+# 4章 章末問題
+# [1]自然数nと自然数rを引数として与えると、順列nPrの値を計算して返す関数を定義し、
+# 10P4の値を出力せよ。
+# [2]フィボナッチ数列を第一項から第十項まで出力せよ。
+# [3]再起関数を用いて、次の漸化式で定義される数列anについて、
+# a1からa20までの値を出力せよ。
+# a1 = 2     an = 2a(n-1)-1
+
+# def Permutation(n, r):
+#   p = 1
+#   for i in range(r):
+#     p *= (n-1)
+#   return p
+# print(Permutation(10, 4))
+
+# def fib(n):
+#   if n < 3:
+#     return 1
+#   return fib(n-1) + fib(n-2)
+# for i in range(10):
+#   print(fib(i+1))
+
+# def fact(n):
+#   if n == 1:
+#     return 2
+#   return 2 * fact(n-1) - 1
+# for i in range(20):
+#   print(fact(i+1))
