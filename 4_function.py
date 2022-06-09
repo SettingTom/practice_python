@@ -49,3 +49,8 @@
 #   print(random.uniform(10,100))
 # for k in range(5):
 #   print(random.randint(1,6))
+
+# プログラム4-7(関数の定義と利用)
+# def suss(x):
+#   return x + 1
+# print(suss(3))
