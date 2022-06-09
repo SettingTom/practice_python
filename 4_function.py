@@ -23,3 +23,11 @@
 # print(sorted(str1))
 # print(sorted(str1, reverse=True))
 # print(sum(list1))
+
+# プログラム4-4(イテラブルを扱う組込み関数(2))
+# input1 = input('input number')
+# print('入力された文字列は「' + input1 + '」')
+# print('input1の型は'+str(type(input1)))
+# input_number = int(input1)
+# print('input_numberの型は'+str(type(input_number)))
+# print('入力された値の2乗は'+str(input_number**2))
