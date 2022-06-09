@@ -54,3 +54,12 @@
 # def suss(x):
 #   return x + 1
 # print(suss(3))
+
+# プログラム4-8(返り値を返さない関数)
+# def print_len_eo(s):
+#   if len(s)%2==0:
+#     print('偶数文字列')
+#   else:
+#     print('奇数文字列')
+# print_len_eo('abcdef')
+# print_len_eo('abc')
