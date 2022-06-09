@@ -40,3 +40,12 @@
 # print(y1)
 # print(y2)
 # print(y3)
+
+# プログラム4-6(randomモジュールの利用)
+# import random
+# for i in range(5):
+#   print(random.random())
+# for j in range(5):
+#   print(random.uniform(10,100))
+# for k in range(5):
+#   print(random.randint(1,6))
