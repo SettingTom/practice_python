@@ -82,3 +82,10 @@
 # changeListTest(li)
 # print(n)
 # print(li[0])
+
+# プログラム4-11(再起呼び出しによる階乗計算)
+# def fact(n):
+#   if n == 1:
+#     return 1
+#   return n * fact(n-1)
+# print(fact(7))
