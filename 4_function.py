@@ -10,3 +10,16 @@
 # print(min(1,5,7,4))
 # print(round(7.65))
 # print(round(2.1))
+
+# プログラム4-3(イテラブルを扱う組込み関数(1))
+# for i in range(1,3):
+#   print(i)
+# list1 = [6,2,6,7,1,9]
+# str1 = "athagja"
+# print('list1の要素数は'+str(len(list1)))
+# print('str1の文字数は'+str(len(str1)))
+# print(sorted(list1))
+# print(sorted(list1, reverse=True))
+# print(sorted(str1))
+# print(sorted(str1, reverse=True))
+# print(sum(list1))
