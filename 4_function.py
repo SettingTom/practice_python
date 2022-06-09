@@ -63,3 +63,10 @@
 #     print('奇数文字列')
 # print_len_eo('abcdef')
 # print_len_eo('abc')
+
+# プログラム4-9(ローカル変数を持つ関数)
+# def inverse(x):
+#   inversed_x = 1 / x
+#   return inversed_x
+# a = inverse(4)
+# print(a)
