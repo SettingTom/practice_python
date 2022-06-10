@@ -73,3 +73,31 @@
 # print(p1.id)
 # print(p2.id)
 # print(p3.id)
+
+# 5章 章末問題
+# [1]初めに空リストnumbersを定義し、ユーザーから繰り返し自然数が入力されるたびに
+# numbersにその自然数を格納していくプログラムを作成せよ。
+# [2]三次元空間上の点を表すクラスPoint3Dを定義し、2点間の距離を計算するメソッドを定義せよ。
+# また、そのクラスを用いて、2点(1,2,3), (4,5,6)間の距離を求めよ。
+
+# numbers = []
+# while True:
+#   n = int(input('input number:'))
+#   if n in numbers:
+#     break
+#   else:
+#     numbers.append(n)
+# print(numbers)
+
+# import math
+
+# class Point3D:
+#   def __init__(self, x, y, z):
+#     self.x = x
+#     self.y = y
+#     self.z = z
+#   def get_distance(self, p):
+#     return math.sqrt((self.x - p.x)**2 + (self.y - p.y)**2 + (self.z - p.z)**2)
+# p1 = Point3D(1, 2, 3)
+# p2 = Point3D(4, 5, 6)
+# print(p1.get_distance(p2))
