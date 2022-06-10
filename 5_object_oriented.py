@@ -52,3 +52,24 @@
 # print(p1.get_distance(p2))
 # mp = p1.get_midpoint(p2)
 # print(str(mp.x) + ',' + str(mp.y))
+
+# プログラム5-5(クラス変数の利用)
+# import math
+
+# class Point:
+#   count = 0
+#   def __init__(self, x, y):
+#     self.x = x
+#     self.y = y
+#     Point.count += 1
+#     self.id = Point.count
+#   def get_distance(self, p):
+#     return math.sqrt((self.x - p.x)**2 + (self.y - p.y)**2)
+#   def get_midpoint(self, p):
+#     return Point((self.x + p.x)/2, (self.y + p.y)/2)
+# p1 = Point(5, 7)
+# p2 = Point(2, 3)
+# p3 = Point(9, 6)
+# print(p1.id)
+# print(p2.id)
+# print(p3.id)
