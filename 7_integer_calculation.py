@@ -166,3 +166,14 @@
 #     break
 #   divisor -= 1
 # print("最大公約数は"+str(divisor))
+
+# プログラム7-6(ユークリッドの互除法)
+# a = int(input("input a="))
+# b = int(input("input b="))
+# while True:
+#   r = a % b
+#   if r == 0:
+#     break
+#   a = b
+#   b = r
+# print("最大公約数は"+str(b))
