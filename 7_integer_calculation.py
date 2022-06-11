@@ -121,3 +121,14 @@
 
 # for i in range(2, 101):
 #   print(str(i) + 'より小さい素数は' + str(numOfPrime(i)) + '個')
+
+# プログラム7-4(因数分解のプログラム)
+# n = int(input("input number="))
+# p = 2
+# factor = []
+# while n > 1:
+#   while n % p == 0:
+#     factor.append(p)
+#     n = n//p
+#   p += 1
+# print(factor)
