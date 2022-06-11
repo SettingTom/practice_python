@@ -198,25 +198,25 @@
 # print("最大公約数は"+str(b))
 
 # 問2.解答
-def maxDivisor(a,b):
-  while True:
-    r = a % b
-    if r == 0:
-      break
-    a = b
-    b = r
-  return b
+# def maxDivisor(a,b):
+#   while True:
+#     r = a % b
+#     if r == 0:
+#       break
+#     a = b
+#     b = r
+#   return b
 
-a = int(input("input a="))
-b = int(input("input b="))
-c = int(input("input c="))
-d = int(input("input d="))
+# a = int(input("input a="))
+# b = int(input("input b="))
+# c = int(input("input c="))
+# d = int(input("input d="))
 
-top = a*d + c*b
-down = b*d
-divisor = maxDivisor(top, down)
+# top = a*d + c*b
+# down = b*d
+# divisor = maxDivisor(top, down)
 
-top /= divisor
-down /= divisor
+# top /= divisor
+# down /= divisor
 
-print("分子は" + str(top) + "分母は" + str(down))
+# print("分子は" + str(top) + "分母は" + str(down))
