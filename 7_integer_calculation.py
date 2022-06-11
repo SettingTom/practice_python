@@ -132,3 +132,24 @@
 #     n = n//p
 #   p += 1
 # print(factor)
+
+# 7.2節末問題
+# 問1.入力した自然数の、最大の素因数を求めて表示せよ。
+# 問1.解答
+# n = int(input("input number="))
+# p = 2
+# factor = []
+# while n > 1:
+#   while n % p == 0:
+#     factor.append(p)
+#     n = n//p
+#   p += 1
+# print(max(factor))
+# def maxPrimeFactor(n):
+#   for i in range(2, n):
+#     while n % i == 0:
+#       factor = i
+#       n = n//i
+#   return factor
+# n = int(input("input number="))
+# print(maxPrimeFactor(n))
