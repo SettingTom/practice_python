@@ -11,3 +11,14 @@
 # for i in range(10):
 #   f.write(str(i) + "\n")
 # f.close()
+
+# プログラム6-3(CSVファイルの読み込み)
+# rows = []
+# f = open('subject.csv', 'r', encoding='UTF_8')
+# l = f.readline()
+# while l:
+#   fixed_1 = l.rstrip()
+#   rows.append(fixed_1.split(','))
+#   l = f.readline()
+# for i in rows:
+#   print(i)
