@@ -153,3 +153,16 @@
 #   return factor
 # n = int(input("input number="))
 # print(maxPrimeFactor(n))
+
+# プログラム7-5(最大公約数を求めるプログラム)
+# a = int(input("input a="))
+# b = int(input("input b="))
+# if a < b:
+#   divisor = a
+# else:
+#   divisor = b
+# while divisor > 1:
+#   if a % divisor == 0 and b % divisor == 0:
+#     break
+#   divisor -= 1
+# print("最大公約数は"+str(divisor))
