@@ -25,3 +25,14 @@
 #   print("素数である")
 # else:
 #   print("素数でない")
+
+# プログラム7-3(エラトステネスのふるいのプログラム)
+# import math
+# n = 1000
+# primes = []
+# numbers = range(2, n)
+# sqrt_n = math.sqrt(n)
+# while numbers[0] <= sqrt_n:
+#   primes.append(numbers[0])
+#   numbers = [n for n in numbers if n % numbers[0] != 0]
+# print(primes + numbers)
