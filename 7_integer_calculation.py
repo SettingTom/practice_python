@@ -177,3 +177,46 @@
 #   a = b
 #   b = r
 # print("最大公約数は"+str(b))
+
+# 7.3節末問題
+# 問1.ユークリッドの互除法のプログラミングにおいて、繰り返し処理の中で変数a,bの値を出力することにより、
+# それぞれの値の変化の様子を確認できるように改良せよ。
+# 問2.四つの値a,b,c,dを入力すると、a/b + c/dの計算結果を既約分数で表したときの分子と分母を表示せよ。
+# ヒント：既約分数を求めるには元の分数の分子と分母をそれぞれ、分子と分母の最大公約数で割ればよい。
+
+# 問1.解答
+# a = int(input("input a="))
+# b = int(input("input b="))
+# while True:
+#   r = a % b
+#   if r == 0:
+#     break
+#   a = b
+#   print("a="+str(a))
+#   b = r
+#   print("b="+str(b))
+# print("最大公約数は"+str(b))
+
+# 問2.解答
+def maxDivisor(a,b):
+  while True:
+    r = a % b
+    if r == 0:
+      break
+    a = b
+    b = r
+  return b
+
+a = int(input("input a="))
+b = int(input("input b="))
+c = int(input("input c="))
+d = int(input("input d="))
+
+top = a*d + c*b
+down = b*d
+divisor = maxDivisor(top, down)
+
+top /= divisor
+down /= divisor
+
+print("分子は" + str(top) + "分母は" + str(down))
