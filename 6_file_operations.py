@@ -5,3 +5,9 @@
 #   print(l)
 #   l = f.readline()
 # f.close()
+
+# プログラム6-2(ファイルの書き込み)
+# f = open("test.txt", 'w', encoding='UTF-8')
+# for i in range(10):
+#   f.write(str(i) + "\n")
+# f.close()
