@@ -22,3 +22,9 @@
 #   l = f.readline()
 # for i in rows:
 #   print(i)
+
+# プログラム6-4(ファイルの書き込み)
+# f = open("power.csv", 'w', encoding='UTF-8')
+# for i in range(10):
+#   f.write(str(i) + ',' + str(i**2) + ',' + str(i**3) + '\n')
+# f.close()
