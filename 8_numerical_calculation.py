@@ -137,3 +137,16 @@
 #   df = (f(x_i + dx) - f(x_i)) / dx
 #   file.write(str(x_i) + ',' + str(f(x_i)) + ',' + str(df) + '\n')
 # file.close()
+
+# プログラム8-7(区分求積法のプログラム)
+# def f(x):
+#   return x**3 - 2 * x**2 + 2 * x +5
+# a = 0
+# b = 2
+# n = 200
+# inte = 0
+# dx = (b - a)/n
+# for i in range(n):
+#   x_i = a + i * dx
+#   inte += f(x_i) * dx
+# print(inte)
