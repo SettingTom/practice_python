@@ -150,3 +150,16 @@
 #   x_i = a + i * dx
 #   inte += f(x_i) * dx
 # print(inte)
+
+# プログラム8-8(台形法のプログラム)
+# def f(x):
+#   return x**3 - 2 * x**2 + 2 * x +5
+# a = 0
+# b = 2
+# n = 200
+# inte = 0
+# dx = (b - a)/n
+# for i in range(n):
+#   x_i = a + i * dx
+#   inte += (f(x_i) + f(x_i + dx)) * dx / 2
+# print(inte)
