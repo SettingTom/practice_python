@@ -26,3 +26,20 @@
 #     b = c
 #   file.write(str(i+1) + ',' + str(c) + '\n')
 # file.close()
+
+# プログラム8-3(√3をニュートン法で求めるプログラム)
+# import math
+# def f(x):
+#   return x**2 - 3
+# def df(x):
+#   return 2*x
+# def nextX(x):
+#   return x - (f(x)/df(x))
+
+# x0 = 2
+# x1 = nextX(x0)
+# eps = 0.000001
+# while math.fabs(x0-x1) > eps:
+#   x0 = x1
+#   x1 = nextX(x1)
+# print(x1)
