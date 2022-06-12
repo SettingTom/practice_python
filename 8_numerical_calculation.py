@@ -43,3 +43,21 @@
 #   x0 = x1
 #   x1 = nextX(x1)
 # print(x1)
+
+# プログラム8-4(ニュートン法の収束を調べる)
+# import math
+# def f(x):
+#   return x**2 - 3
+# def df(x):
+#   return 2*x
+# def nextX(x):
+#   return x - (f(x)/df(x))
+
+# file = open("newton_root3.csv", 'w', encoding='UTF-8')
+# x0 = 2
+# x1 = nextX(x0)
+# for i in range(50):
+#   x0 = x1
+#   x1 = nextX(x1)
+#   file.write(str(i+1) + ',' + str(x1) + '\n')
+# file.close
