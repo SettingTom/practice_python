@@ -196,3 +196,57 @@
 # print('領域内の点の数:' + str(count) + '/' + str(n))
 # print('積分値の近似値:' + str(count * h * (b-a) / n))
 # print('円周率の近似値:' + str(count * h * (b-a) / n * 4))
+
+# 8.3節末問題
+# 問1.区分求積法と台形公式を用いた数値積分において、分割数を10ずつ数えながら10から1000分割まで変化させたときの近似値を
+# 同時にCSVファイルとして書き出すプログラムを作成し、収束の様子を比較せよ。
+# ∮sin^2(x) + cos^2(x)dx (x=0からx=πの範囲)
+# 問2.モンテカルロ法で次の定積分の近似値を求めよ。
+# ∮cos(x)dx (x=0からx=π/2の範囲)
+
+# 問1.解答
+# import math
+# def f(x):
+#   return math.sin(x)**2 + math.cos(x)**2
+# def sectionalMeasurement(n):
+#   a = 0
+#   b = math.pi
+#   inte = 0
+#   dx = (b - a)/n
+#   for i in range(n):
+#     x = a + i * dx
+#     inte += f(x) * dx
+#   return inte
+# def trapezoidFormula(n):
+#   a = 0
+#   b = math.pi
+#   inte = 0
+#   dx = (b - a)/n
+#   for i in range(n):
+#     x = a + i * dx
+#     inte += (f(x) + f(x + dx)) * dx / 2
+#   return inte
+# file = open('integration_pi.csv', 'w', encoding='utf-8')
+# file.write('分割数,区分求積法,台形公式\n')
+# for i in range(1,101):
+#   n = i * 10
+#   a = sectionalMeasurement(n)
+#   b = trapezoidFormula(n)
+#   file.write(str(n) + ',' + str(a) + ',' + str(b) + '\n')
+
+# 問2.解答
+# import random
+# import math
+# def f(x):
+#   return math.cos(x)
+# a = 0
+# b = math.pi/2
+# h = 1
+# n = 100000
+# count = 0
+# for i in range(n):
+#   x = random.uniform(a,b)
+#   y = random.uniform(0,h)
+#   if y < f(x):
+#     count += 1
+# print(count * h * (b-a) / n)
