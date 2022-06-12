@@ -180,3 +180,19 @@
 #     count += 1
 # print('領域内の点の数:' + str(count) + '/' + str(n))
 # print('解の近似値:' + str((count/n) * h * (b-a)))
+
+# プログラム8-10(モンテカルロ法による円周率の計算)
+# import random
+# a = 0
+# b = 1
+# h = 1
+# n = 100000
+# count = 0
+# for i in range(n):
+#   x = random.uniform(a,b)
+#   y = random.uniform(0,h)
+#   if x**2 + y**2 < 1:
+#     count += 1
+# print('領域内の点の数:' + str(count) + '/' + str(n))
+# print('積分値の近似値:' + str(count * h * (b-a) / n))
+# print('円周率の近似値:' + str(count * h * (b-a) / n * 4))
