@@ -110,3 +110,16 @@
 #   x0 = x1
 #   x1 = nextX(x1)
 # print('x=' + str(x1) + ',f(x)=' + str(f(x1)))
+
+# プログラム8-5(各点の値を取得)
+# def f(x):
+#   return x**2
+# file = open("y_eq_x2.csv", 'w', encoding='UTF-8')
+# x_min = -1
+# x_max = 1
+# n = 200
+# dx = (x_max - x_min) / n
+# for i in range(n+1):
+#   x_i = x_min + i * dx
+#   file.write(str(x_i) + ',' + str(f(x_i)) + '\n')
+# file.close()
