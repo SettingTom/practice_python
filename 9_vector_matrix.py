@@ -42,3 +42,16 @@
 #   return v
 # v1 = [10, 18]
 # print(v_multiple(3,v1))
+
+# プログラム9-3(行列の和)
+# def m_plus(m1,m2):
+#   m = []
+#   for i in range(len(m1)):
+#     r = []
+#     for j in range(len(m1[0])):
+#       r.append(m1[i][j] + m2[i][j])
+#     m.append(r)
+#   return m
+# A = [[1,2],[3,4]]
+# B = [[5,6],[7,8]]
+# print(m_plus(A,B))
