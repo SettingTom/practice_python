@@ -163,3 +163,20 @@
 #   x_i = a + i * dx
 #   inte += (f(x_i) + f(x_i + dx)) * dx / 2
 # print(inte)
+
+# プログラム8-9(モンテカルロ法のプログラム)
+# import random
+# def f(x):
+#   return x**2 + 1
+# a = -1
+# b = 1
+# h = 2
+# n = 100000
+# count = 0
+# for i in range(n):
+#   x = random.uniform(a,b)
+#   y = random.uniform(0,h)
+#   if y < f(x):
+#     count += 1
+# print('領域内の点の数:' + str(count) + '/' + str(n))
+# print('解の近似値:' + str((count/n) * h * (b-a)))
