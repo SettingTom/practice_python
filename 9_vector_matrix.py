@@ -55,3 +55,19 @@
 # A = [[1,2],[3,4]]
 # B = [[5,6],[7,8]]
 # print(m_plus(A,B))
+
+# プログラム9-4(行列の積)
+# def m_product(m1,m2):
+#   m = []
+#   for i in range(len(m1)):
+#     r = []
+#     for j in range(len(m2[0])):
+#       v = 0
+#       for k in range(len(m2)):
+#         v += m1[i][k] * m2[k][j]
+#       r.append(v)
+#     m.append(r)
+#   return m
+# m1 = [[1,2],[3,4]]
+# m2 = [[5,6],[7,8]]
+# print(m_product(m1,m2))
