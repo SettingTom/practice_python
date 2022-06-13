@@ -71,3 +71,60 @@
 # m1 = [[1,2],[3,4]]
 # m2 = [[5,6],[7,8]]
 # print(m_product(m1,m2))
+
+# 9章 章末問題
+# [1]同じ次数の二つのベクトルの距離を求めて返す関数を作成し、次のベクトル間の距離を求めよ。
+# v1=(6,-2,5,7), v2=(-5,2,5,-2)
+# [2]引数に正方行列を指定すると、その転置行列を返す関数を作成し、次の行列の転置行列を表示せよ。
+# A = [[1,2],[3,4]]
+# [3]引数に自然数nを指定するとn×nの単位行列Eを返す関数を作成し、任意のn×n行列Mに対してME=Mであることを確認せよ。
+
+# [1].解答
+# import math
+# def v_distance(v1,v2):
+#   d = 0
+#   for i in range(len(v1)):
+#     d += (v1[i] - v2[i])**2
+#     return math.sqrt(d)
+# v1 = [6,-2,5,7]
+# v2 = [-5,2,5,-2]
+# print(v_distance(v1,v2))
+
+# [2].解答
+# def m_trans(m1):
+#   m = []
+#   for i in range(len(m1[0])):
+#     v = []
+#     for j in range(len(m1)):
+#       v.append(m1[j][i])
+#     m.append(v)
+#   return m
+# A = [[1,2],[3,4]]
+# print(m_trans(A))
+
+# [3].解答
+# def m_product(m1,m2):
+#   m = []
+#   for i in range(len(m1)):
+#     r = []
+#     for j in range(len(m2[0])):
+#       v = 0
+#       for k in range(len(m2)):
+#         v += m1[i][k] * m2[k][j]
+#       r.append(v)
+#     m.append(r)
+#   return m
+# def m_unit(n):
+#   m = []
+#   for i in range(n):
+#     v = []
+#     for j in range(n):
+#       if i == j:
+#         v.append(1)
+#       else:
+#         v.append(0)
+#     m.append(v)
+#   return m
+# M = [[1,2],[3,4]]
+# E = m_unit(3)
+# print(m_product(M,E))
