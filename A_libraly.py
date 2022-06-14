@@ -7,3 +7,10 @@
 # print('arr1:',arr1)
 # print('arr2:',arr2)
 # print('arr3:',arr3)
+
+# プログラムA-2(SciPyの利用例)
+# def f(x):
+#   return (1-2**2)**(1/2)
+# from scipy.integrate import quad
+# y, abserr = quad(f, 0, 1)
+# print(y, '+-', abserr)
