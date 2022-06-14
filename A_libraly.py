@@ -14,3 +14,19 @@
 # from scipy.integrate import quad
 # y, abserr = quad(f, 0, 1)
 # print(y, '+-', abserr)
+
+# プログラムA-3(Matplotlibの利用例)
+# import matplotlib.pyplot as plt
+# def f(x):
+#   return x**2
+# x_min = -1
+# x_max = 1
+# n = 200
+# x = []
+# y = []
+# for i in range(n + 1):
+#   x_i =x_min + i * (x_max - x_min) / n
+#   x.append(x_i)
+#   y.append(f(x_i))
+# plt.plot(x,y)
+# plt.show()
